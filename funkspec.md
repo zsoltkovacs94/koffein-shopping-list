@@ -22,6 +22,12 @@ Azt szeretnénk, ha a felhasználónak nem kellene mást tennie, mint felírni a
 
 ## Igényelt üzleti folyamatok leírása
 
+A vásárlást tervező felhasználónak lehetősége nyílik a regisztrációra, valamint ezzel párhuzamosan a
+bejelentkezésre és (igény szerint) a profilok közötti váltásra a főoldalon, mely egy új oldalon folytatódik
+(felhasználónév, jelszó). Belépést követően lehetősége nyílik egy új listát létrehozni (vagy meglévőt törölni),
+azt elnevezni (vagy átnevezni), majd a listán belül termékeket hozzáadni/eltávolítani.
+Emellett a kedvenc (gyakori) termékeit ki tudja jelölni, ezzel megkönnyítve a bevásárlólista feltöltését.
+
 ## Használati esetek
 
 ### Hozzáadás a listához
