@@ -4,7 +4,19 @@
 
 ## A rendszer céljai és nem céljai
 
+A rendszer céljai:
+- Egy olyan felület létrehozása, amelyet könnyű minden felhasználónak kezelnie
+- Olyan listák létrehozása, amelyek eltárolódnak a memóriában, és csak a felhasználó szerkesztheti azokat
+- A felhasználók segítése a bevásárlásban, hogy ne kelljen a fejükben tartaniuk a listát
+
+Nem céljai:
+- Egyes boltok kínálatának időbeli frissítése és kiírása (nem egy webes áruházat szeretnénk létrehozni)
+
 ## Vágyálomrendszer leírása
+
+A követelményspecifikációban részletezve. Vágyunk továbbra is az, hogy egy könnyen kezelhető szoftvert biztosítsunk a felhasználónak, amelyet kényelmes használni.
+
+Azt szeretnénk, ha a felhasználónak nem kellene mást tennie, mint felírni a vásárolni kívánt termékeket az egyes listákba, ahol azok eltárolódnak, így a felhasználónak nem kell attól tartania, hogy bizonyos dolgokat elfelejt.
 
 ## Jelenlegi üzleti folyamatok leírása
 

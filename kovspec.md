@@ -4,6 +4,20 @@
 
 ## Vágyálomrendszer leírása
 
+A cél egy olyan szoftver létrehozása, amely gyorsabbá és egyszerűbbé teszi a bevásárlást az által, hogy egy ingyenes, könnyen használható bevásárló listát biztosít a felhasználónak.
+
+A vágy az, hogy a felhasználónak csak le kelljen töltenie az alkalmazást, majd bejelentkezés után egyből el kezdheti tervezni azt, hogy milyen termékeket kell vásárolnia.
+
+Vágyunk azt, hogy a szoftver több fontos funkcióval is rendelkezzen:
+
+- Egyszerű szerkesztése a listának (egyszerű legyen hozzáadni, törölni a termékek nevét)
+- Gyakran használt termékek nevének tárolása, gyors kiválasztása (pl. abban az esetben, ha gyakran veszünk egy terméket, legyen lehetőség annak nevének elmentésére, hogy később ne kelljen újra beírni)
+  - Ezt úgy is el lehet képzelni, mint egy külön 'Favorites' listát, ahonnan gyorsan ki tudjuk választani kedvenc termékeink nevét
+- Több bevásárló lista létrehozása, tárolása (pl. abban az esetben, ha más boltokban más termékeket szeretünk jobban vagy egyes boltokban olcsóbbak egyes termékek)
+- A lista adatait csak a felhasználó változtathassa meg (pl. abban az esetben, ha több felhasználó is hozzáfér az eszközhöz, legyen egy olyan beléptetési rendszer, amely csak a saját listáinkat jeleníti meg, így csak azokhoz férünk hozzá)
+- Egyszerű és kényelmes legyen használni (ide tartozik az is, hogy ingyenesen letölthető és használható)
+- Esztétikailag vonzó legyen
+
 ## Jelenlegi üzleti folyamatok leírása
 
 ## Igényelt üzleti folyamatok modellje
