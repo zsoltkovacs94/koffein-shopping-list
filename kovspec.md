@@ -19,6 +19,7 @@ Vágyunk azt, hogy a szoftver több fontos funkcióval is rendelkezzen:
 - Esztétikailag vonzó legyen
 
 ## Jelenlegi üzleti folyamatok leírása
+A mai világban az emberek körében egyre fontisabb a digitális átálás. A hagyományos "cetlis" bevásárló lista már nem a leghatékonyabb. Sokszor elkanlódik , nem tudjuk mi az ami már megvan a listáról vagy összekeverhetjük a listáinkat. Ezért tartjuk fontosnak a digitális bevásárlólistát. Így sokkal könnyebben tudják rendszerezni a listáikat és követni annak aktualitását. A lista és a hozzá adott elemeket lehet hozzáadni, átnevezni és törölni.
 
 ## Igényelt üzleti folyamatok modellje
 
