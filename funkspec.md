@@ -65,3 +65,10 @@ A felhasználó kiválasztja a listaváltás funkciót, majd a kívánt listát,
 A követelményspecifikációban részletezve. A rendszer legfontosabb funkciói a k1, k2, k3, k4, a k9-nek való megfeleléssel együtt biztosítják a program megfelelő, alapvető működését. A k5, k6, k7, k8 követelmények pedig kényelmi funkciókat biztosítanak a felhasználó számára.
 
 ## Képernyőtervek
+
+Különböző felületek, melyeket a felhasználó kezel:
+
+![Mentés](UML/kepernyotervek/listak.drawio.png)
+![Mentés](UML/kepernyotervek/lista1.drawio.png)
+![Mentés](UML/kepernyotervek/regisztracio.drawio.png)
+![Mentés](UML/kepernyotervek/regisztralas.drawio.png)

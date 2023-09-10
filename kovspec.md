@@ -22,7 +22,7 @@ Vágyunk azt, hogy a szoftver több fontos funkcióval is rendelkezzen:
 
 ## Igényelt üzleti folyamatok modellje
 
-![modell](UML/hasznalati_esetek/Igenyelt_folyamatok.drawio.png)
+![modell](UML/igenyelt_folyamatok/Igenyelt_folyamatok.drawio.png)
 
 ## Követelménylista
 
