@@ -8,9 +8,12 @@ A rendszer céljai:
 - Egy olyan felület létrehozása, amelyet könnyű minden felhasználónak kezelnie
 - Olyan listák létrehozása, amelyek eltárolódnak a memóriában, és csak a felhasználó szerkesztheti azokat
 - A felhasználók segítése a bevásárlásban, hogy ne kelljen a fejükben tartaniuk a listát
+- Amellett, hogy a termékek nevét felírhatják, az áruk kívánt mennyiségét is megadhatják a felhasználók, ha szükségük lenne csak egy bizonyos mennyiség vásárlására
 
 Nem céljai:
 - Egyes boltok kínálatának időbeli frissítése és kiírása (nem egy webes áruházat szeretnénk létrehozni)
+- A piacon lévő termékek értékeinek összehasonlítása
+- Keresőrendszer arra, hogy milyen terméket milyen áruházakban lehet megvásárolni
 
 ## Vágyálomrendszer leírása
 
