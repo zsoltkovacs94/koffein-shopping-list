@@ -31,6 +31,10 @@ A mai világban az emberek körében egyre fontisabb a digitális átálás. A h
 
 ## Követelménylista
 
+### Funkcionális követelmények
+
+A bevásárlólista alkalmazásnak az alábbi funkcionális követelményeknek kell megfelelnie.
+
 | ID | Név | Kifejtés |
 |----|-----|----------|
 | k1 | Bevásárló lista megjelenítése | A programnak, könnyen értelmezhető módon meg kell jelenítenie a bevásárló listát|
@@ -41,4 +45,11 @@ A mai világban az emberek körében egyre fontisabb a digitális átálás. A h
 | k6 | Terméknév gyors kiválasztása | A felhasználónak képesnek kell lennie korábban elmentett terméknevek gyors kiválasztására |
 | k7 | Több bevásárló lista tárolása | A programnak tudnia kell több bevásárlólistát eltárolni |
 | k8 | Bevásárló listák közti váltás | A felhasználónak képesnek kell lennie a tárolt bevásárlólisták közti váltásra |
+
+### Nem-funkcionális követelmények
+
+Az alkalmazásnak a megfelelő működés érdekében az alábbi nem-funkcionális követelményeknek kell megfelelnie.
+
+| ID | Név | Kifejtés |
+|----|-----|----------|
 | k9 | Az adatokat csak a felhasználó módosíthatja | Az bevásárló listához csakis a felhasználó adhat hozzá és csakis ő távolíthat el belőle termékeket |
