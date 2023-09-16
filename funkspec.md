@@ -33,35 +33,41 @@ Emellett a kedvenc (gyakori) termékeit ki tudja jelölni, ezzel megkönnyítve 
 
 ## Használati esetek
 
-### Hozzáadás a listához
+### A felhasználó által elvégezhető műveletek
+
+A felhasználó kezdeményezi az összes olyan műveletet, ami a lista tartalmát befolyásolja.
+
+![Felhasználó által végezhető műveletek](UML/hasznalati_esetek/felhasznalo.png)
+
+#### Hozzáadás a listához
 
 A felhasználó kiválasztja a hozzáadás funkciót, beírja a termék adatait, majd megtörténik a hozzáadás.
 
-![Hozzáadás](UML/hasznalati_esetek/hozzaad.png)
-
-### Eltávolítás a listából
+#### Eltávolítás a listából
 
 A felhasználó kiválasztja a terméket a listából, kiválasztja az eltávolítás funkciót, majd megtörténik az eltávolítás.
 
-![Eltávolítás](UML/hasznalati_esetek/eltavolitas.png)
-
-### Termék nevének lementése
+#### Termék nevének lementése
 
 A felhasználó kiválasztja a hozzáadás funkciót, megadja a termék adatait, majd a mentés funkciót kiválasztva megtörténik a terméknév elmentése.
 
-![Mentés](UML/hasznalati_esetek/mentes.png)
-
-### Termék nevének gyors kiválasztása
+#### Termék nevének gyors kiválasztása
 
 A felhasználó kiválasztja a hozzáadás funkciót, a termék adatainak beírása helyett kiválasztja a mentett termékek közül a terméket.
 
-![Gyors kiválasztás](UML/hasznalati_esetek/gyorskivalasztas.png)
-
-### Listaváltás
+#### Listaváltás
 
 A felhasználó kiválasztja a listaváltás funkciót, majd a kívánt listát, ezután megjelenítődik a kiválasztott lista.
 
-![Listaváltás](UML/hasznalati_esetek/listavaltas.png)
+### Listakezelő műveletei
+
+A listakezelő a megjelenítés függvény kivételével csakis felhasználói művelet hatására cselekedhet.
+
+![Listakezelő műveletei](UML/hasznalati_esetek/listakezelo.png)
+
+#### Megjelenítés
+
+Az alkalmazás indulásakor és felhasználói műveletek után felhasználói beavatkozás nélkül hajtódik végre, megjeleníti a bevásárlólista elemeit.
 
 ## Követelménylista
 
