@@ -65,7 +65,17 @@ A felhasználó kiválasztja a listaváltás funkciót, majd a kívánt listát,
 
 ## Követelménylista
 
-A követelményspecifikációban részletezve. A rendszer legfontosabb funkciói a k1, k2, k3, k4, a k9-nek való megfeleléssel együtt biztosítják a program megfelelő, alapvető működését. A k5, k6, k7, k8 követelmények pedig kényelmi funkciókat biztosítanak a felhasználó számára.
+Az alkalmazás legfontosabb funkcióinak megvalósításához a rendszernek meg kell felelnie a követelmény specifikációban felsorolt k1, k2, k3 és k4 funkcionális követelményeknek, valamint a megfelelő működés érdekében a k9 nem-funkcionális követelménynek.
+
+A k1 követelmény előírja a lista megjelenítését, a k2 a lista tárolását, a k3 a listához való hozzáadást, a k4 pedig a listából való eltávolítást, ezek nélkül a rendszer nem tudná egy egyszerű bevásárlólista feladatait ellátni.
+
+A k9 nem-funkcionális követelmény biztosítja a felhasználót, hogy csakis ő adhat hozzá a listához és távolíthat el belőle.
+
+A k5, k6, k7 és k8 funkcionális követelmények extra kényelmi funkciókat adnak az alkalmazáshoz, amik többé teszik, mint egy egyszerű bevásárlólista.
+
+A k5 és k6 követelmények termékek nevének mentését és gyors beállítását teszik lehetővé, könnyítve gyakran vásárolt termékek hozzáadását.
+
+A k7 és k8 követelmények, pedig lehetővé teszik, hogy a felhasználó képes legyen több bevásárlólistát is kezelni.
 
 ## Képernyőtervek
 
