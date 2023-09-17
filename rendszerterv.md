@@ -77,7 +77,9 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 > 
 > Ezzel arra gondolunk, hogy a felhasználó lesz felelős a saját listájáért; mi, a szoftver fejlesztői, nem fogunk belenyúlni a listába még az elírt szavak javítása érdekében sem, hanem minden döntést a felhasználóra bízunk.
 
+### Törvényi előírások, szabványok
 
+Ide kellenek azok a törvények, szabványok, amelyeket be kell tartanunk a szoftver tervezése, létrehozása alatt (folyt. köv. mert nem értek a joghoz).
 
 ## Funkcionális terv
 
