@@ -85,9 +85,35 @@ A k7 és k8 követelmények, pedig lehetővé teszik, hogy a felhasználó képe
 
 ## Képernyőtervek
 
-Különböző felületek, melyeket a felhasználó kezel:
+#### Különböző felületek, melyeket a felhasználó kezel:
+
+Az **első** képernyőterv a *főképernyőt* reprezentálja. Az alkalmazás elindítását követően ezt látja 
+a felhasználó. Középen megtalálható az összes (felhasználó által) létrehozott lista egymás alá 
+helyezve. Az alsó sorban pedig két gomb van feltüntetve: a "Beállítások" és a "Lista hozzáadása".
 
 ![Mentés](UML/kepernyotervek/listak.drawio.png)
+
+---
+A **második** képernyőterv egy *listát* és annak elemeit mutatja be. Ezt a felületet a főképernyőről tudja
+megközelíteni a felhasználó, egy már létrehozott listát megnyitva. A felső sorban két gomb szerepel:
+egy "Vissza" gomb (ami visszavisz a főoldalra), valamint egy "Termék hozzáadása" gomb. Középen balra
+helyezve látható az összes (felhasználó által) hozzáadott (bevásárlásra szánt) termék egymás alá 
+helyezve. Végül az alsó sorban egy "Kedvenc termékek" gomb bemutatja a felhasználó kedvenc termékeit.
+
 ![Mentés](UML/kepernyotervek/lista1.drawio.png)
-![Mentés](UML/kepernyotervek/regisztracio.drawio.png)
-![Mentés](UML/kepernyotervek/regisztralas.drawio.png)
+
+---
+A **harmadik** képernyőterv egy olyan felület, amely egy listán belül a "Termék hozzáadása" gomb 
+megnyomásával jelenik meg. Itt lehet megnevezni a hozzáadni kívánt *termék* nevét, annak mennyiségét 
+és mértékét. Ezalatt pedig két gomb szerepel: a "Kedvencek közé" és az "OK" (amely visszavisz az 
+adott listához).
+
+![Mentés](UML/kepernyotervek/termek_hozzaadasa1.drawio.png)
+
+---
+A **negyedik** képernyőterv a felhasználó *kedvenc termékeit* sorolja fel. Ide egy adott listán belül a 
+"Kedvenc termékek" gomb megnyomásával van lehetőség eljutni. Felső sorban szereplő "Vissza"gomb által
+vissza lehet jutni a listához. A képernyő alján pedig újabb kedvenc termékeket tud hozzáadni a 
+felhasználó a kedvenc termékeihez.
+
+![Mentés](UML/kepernyotervek/kedvenc_termekek.drawio.png)
