@@ -68,6 +68,15 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 > 
 > A 'Listaváltás' funkció már a főmenüből elérhető lesz, így a felhasználó bármikor könnyedén válthat a listák között.
 
+### Nem-funkcionális követelmények
+
+> ### Az adatokat csak a felhasználó módosíthatja
+> **Röviden a követelménylistából**: A bevásárló listához csakis a felhasználó adhat hozzá és csakis ő távolíthat el termékeket. 
+> 
+> Mivel nem kötjük az egyes bevásárló listákat belépéshez, ezért itt arra törekszünk, hogy az a felhasználó legyen az egyetlen aki módosítani tudja a listákat, akinél az eszköz található.
+> 
+> Ezzel arra gondolunk, hogy a felhasználó lesz felelős a saját listájáért; mi, a szoftver fejlesztői, nem fogunk belenyúlni a listába még az elírt szavak javítása érdekében sem, hanem minden döntést a felhasználóra bízunk.
+
 
 
 ## Funkcionális terv
