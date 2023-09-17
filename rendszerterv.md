@@ -61,6 +61,13 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 > 
 > A több listás megoldás egyesek számára csak kényelmi opciót fog jelenteni, ha külön listákba szeretnék írni azokat a termékeket, amiket külön boltokban vesznek meg, de fontos megadni erre is a lehetőséget.
 
+> ### Bevásárló listák közti váltás
+> **Röviden a követelménylistából**: A felhasználónak képesnek kell lennie a tárolt bevásárló listák közti váltásra.
+> 
+> Ha a felhasználó több listába szeretné elmenteni a kívánt termékeket, akkor biztosítanunk kell arra lehetőséget, hogy a különböző listák között gyorsan és egyszerűen válthasson.
+> 
+> A 'Listaváltás' funkció már a főmenüből elérhető lesz, így a felhasználó bármikor könnyedén válthat a listák között.
+
 
 
 ## Funkcionális terv
