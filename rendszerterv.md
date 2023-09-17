@@ -33,6 +33,13 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 > 
 > Egy gomb megnyomása után a felhasználónak csak annyit kell tennie, hogy beírja a számára fontos termék nevét, mennyiségét és mértékegységét a megfelelő helyre, és azok az adatok hozzáadás után eltárolódnak.
 
+> ### Termék eltávolítása a listából
+> **Röviden a követelménylistából**: A felhasználónak képesnek kell lennie termékeket eltávolítani a listából.
+> 
+> Hogy a felhasználó egyszerűen kezelhesse a bevásárló listáját, biztosítani kell arra módszert, hogy jelezhesse magának ha már megvette a listán található terméket, vagy ha már nincs szüksége rá.
+> 
+> A törlés kivitelezésével a termék adatai törlődnek mind az alkalmazásból és az eszköz háttértárán tárolt listából is.
+
 
 
 ## Funkcionális terv
