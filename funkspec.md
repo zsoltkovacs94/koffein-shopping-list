@@ -25,11 +25,13 @@ Azt szeretnénk, ha a felhasználónak nem kellene mást tennie, mint felírni a
 
 ## Igényelt üzleti folyamatok leírása
 
-A vásárlást tervező felhasználónak lehetősége nyílik a regisztrációra, valamint ezzel párhuzamosan a
-bejelentkezésre és (igény szerint) a profilok közötti váltásra a főoldalon, mely egy új oldalon folytatódik
-(felhasználónév, jelszó). Belépést követően lehetősége nyílik egy új listát létrehozni (vagy meglévőt törölni),
-azt elnevezni (vagy átnevezni), majd a listán belül termékeket hozzáadni/eltávolítani.
-Emellett a kedvenc (gyakori) termékeit ki tudja jelölni, ezzel megkönnyítve a bevásárlólista feltöltését.
+Azért, hogy könnyebbé tegyük a vásárlást tervező emberek dolgát, létrehozunk egy alkalmazást, amely
+a mindennapokban megfelelően helyt fog tudni állni az elektronikai világban.
+
+A vásárlást tervező felhasználónak lehetősége nyílik egy/több új listát létrehozni (vagy meglévőt 
+törölni), azt elnevezni (vagy átnevezni), majd a listán belül termékeket hozzáadni/eltávolítani. 
+A termékeket el tudja nevezni, mennyiséget és mértéket is hozzá tud rakni. Emellett a kedvenc 
+(gyakori) termékeit ki tudja jelölni, ezzel megkönnyítve a bevásárlólista feltöltését.
 
 ## Használati esetek
 
