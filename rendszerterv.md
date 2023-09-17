@@ -54,6 +54,13 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 > 
 > A már 'Kedvenc termékek' listához hozzáadott terméknevek megjelennek, ha a felhasználó hasonló, esetleg ugyanazt a terméket kezdi el beírni a bevásárló listájába. Ezzel is szeretnénk könnyebbé tenni a lista létrehozását.
 
+> ### Több bevásárló lista tárolása
+> **Röviden a követelménylistából**: A programnak tudnia kell több bevásárlólistát is tárolni.
+> 
+> Hasonlóan a 'Bevásárló lista permanens tárolása' ponthoz, ezzel a követelménnyel is azt szeretnénk elérni, hogy a felhasználónak ne kelljen több listát is fejben tartania.
+> 
+> A több listás megoldás egyesek számára csak kényelmi opciót fog jelenteni, ha külön listákba szeretnék írni azokat a termékeket, amiket külön boltokban vesznek meg, de fontos megadni erre is a lehetőséget.
+
 
 
 ## Funkcionális terv
