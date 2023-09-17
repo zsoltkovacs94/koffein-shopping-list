@@ -40,6 +40,13 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 > 
 > A törlés kivitelezésével a termék adatai törlődnek mind az alkalmazásból és az eszköz háttértárán tárolt listából is.
 
+> ### Terméknév elmentése/Kedvencekhez adás
+> **Röviden a követelménylistából**: A programnak tudnia kell tárolni a felhasználó által elmentett termékek neveit.
+> 
+> Azt szeretnénk, hogy a felhasználónak kényelmes legyen használnia ezt a szoftvert, ezért megadunk egy olyan lehetőséget, hogy a felhasználó tetszés szerint elmenhesse a kedvenc termékeit egy külön listába.
+> 
+> Az ilyen termékek adatait a felhasználó elmenheti a termék listához adása közben vagy egy külön 'Kedvenc termékek' lista használatával is.
+
 
 
 ## Funkcionális terv
