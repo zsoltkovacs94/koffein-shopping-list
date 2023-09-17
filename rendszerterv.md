@@ -47,6 +47,13 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 > 
 > Az ilyen termékek adatait a felhasználó elmenheti a termék listához adása közben vagy egy külön 'Kedvenc termékek' lista használatával is.
 
+> ### Terméknév gyors kiválasztása
+> **Röviden a követelménylistából**: A felhasználónak képesnek kell lennie korábban elmentett terméknevek gyors kiválasztására.
+> 
+> Célunk ugyancsak az, hogy a felhasználónak még egyszerűbb dolga legyen.
+> 
+> A már 'Kedvenc termékek' listához hozzáadott terméknevek megjelennek, ha a felhasználó hasonló, esetleg ugyanazt a terméket kezdi el beírni a bevásárló listájába. Ezzel is szeretnénk könnyebbé tenni a lista létrehozását.
+
 
 
 ## Funkcionális terv
