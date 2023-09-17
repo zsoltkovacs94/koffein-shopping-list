@@ -38,6 +38,8 @@ A hozzáadás funkciót a kezdetben megjelenő képernyő "Termék hozzáadása"
 
 ### Kedvencekhez adás
 
+#### Hozzáadás menüből
+
 A kedvencekhez adás menti a beírt terméknevet későbbi gyors kiválasztáshoz.
 
 ![Mentés folyamata](UML/funkcionalis_terv/mentes.png)
@@ -45,6 +47,16 @@ A kedvencekhez adás menti a beírt terméknevet későbbi gyors kiválasztásho
 A hozzáadás menüjében a "Kedvencek közé" gombbal elérhető.
 
 ![Hozzáadás menüje](UML/kepernyotervek/termek_hozzaadasa1.drawio.png)
+
+#### Kedvenc termékek listából
+
+A "Termék hozzáadása" gomb megnyomása után meg kell adni a termék nevét, majd jóváhagyni és hozzáadódik a listához.
+
+![Kedvencekhez adás kedvencek listából](UML/funkcionalis_terv/kedvencekhez_adas_kedvencekbol.png)
+
+A kedvencekhez adás a "Termék hozzáadása" gombbal történik.
+
+![Kedvencek lista](UML/kepernyotervek/kedvenc_termekek.drawio.png)
 
 ### Törlés a listából
 
@@ -58,13 +70,31 @@ A listanézetben a listaelemre kattintva érhető el a törlés funkció.
 
 ### Kedvencek listájának megjelenítése
 
+A kedvencek megjelenítése hasonló módon történik, mint a bevásárlólista megjelenítése, vagyis automatikusan történik a kedvenc termékek menüpont megnyitásakor.
+
+![Kedvencek megjelenítésének folyamata](UML/funkcionalis_terv/kedvencek_megjelenitese.png)
+
+A kedvencek hasonlóan jelennek meg, mint a bevásárlólista elemei.
+
+![Kedvencek lista](UML/kepernyotervek/kedvenc_termekek.drawio.png)
+
 ### Kedvencekből való törlés
 
-### Kedvencekhez adás a kedvencek listájából
+A kedvencek menü megnyitásakor látható a termék neve mellett egy törlés gomb, ami törli az adott elemet.
 
-### Listaválasztás
+### Lista tárolása a háttértáron
 
-### Listák tárolása a háttértáron
+A lista tárolása egyszerű csv formátumban történik, aminek a felépítése a következő:
+
+```
+termeknev1,mennyiseg1,mertekegyseg1
+termeknev2,mennyiseg2,mertekegyseg2
+.
+.
+.
+```
+
+Egy külön osztály felelős a lista beolvasásáért és kiírásáért, a lista háttértáron lévő verziójának mindig a memóriában lévő verzióval együtt kell frissülnie.
 
 ## Fizikai környezet
 
