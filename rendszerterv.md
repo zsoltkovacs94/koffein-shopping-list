@@ -8,6 +8,19 @@
 
 ## Követelmények
 
+Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen megvalósítani. Ezek a fejlesztés során változhatnak.
+
+### Funkcionális követelmények
+
+> ### Bevásárló lista megjelenítése
+> **Röviden a követelménylistából**: A programnak könnyen értelmezhető módon kell megjelenítenie a bevásárló listát.
+>
+> A célunk az, hogy a felhasználó a mobiljáról könnyedén hozzáférhessen az alkalmazáshoz és kényelmesen használhassa azt. Fontos egy felhasználó-barát interfész kialakítása.
+> 
+> A felhasználó által készített bevásárlólistának akadálymentesen, bármilyen beavatkozás nélkül kell megjelennie az alkalmazáson belül.
+
+
+
 ## Funkcionális terv
 
 ### Menühierarchia
