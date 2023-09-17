@@ -26,6 +26,12 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 > 
 > Tervünk az, hogy a lista elemeit egy, az adott eszköz háttértárába elmentett .csv állományba fogjuk elmenteni, így az nem foglal sok helyet és nem bonyolult a frissítése sem.
 
+> ### Termék hozzáadása a listához
+> **Röviden a követelménylistából**: A felhasználónak képesnek kell lennie termékeket hozzáadni a listához, ami eltávolításig tárolódik.
+> 
+> Ahhoz, hogy a felhasználónak egyszerű dolga legyen, nem mi adunk a felhasználónak egy előre létrehozott, többezres nagyságrendű listát amiből ő válogathat, hanem megadjuk neki a lehetőséget, hogy a saját bevásárló listáját hozhassa létre.
+> 
+> Egy gomb megnyomása után a felhasználónak csak annyit kell tennie, hogy beírja a számára fontos termék nevét, mennyiségét és mértékegységét a megfelelő helyre, és azok az adatok hozzáadás után eltárolódnak.
 
 
 
