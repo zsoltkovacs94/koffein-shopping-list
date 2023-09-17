@@ -19,6 +19,14 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 > 
 > A felhasználó által készített bevásárlólistának akadálymentesen, bármilyen beavatkozás nélkül kell megjelennie az alkalmazáson belül.
 
+> ### Bevásárló lista permanens tárolása
+> **Röviden a követelménylistából**: A bevásárló listát permanens módon kell tárolni az adott eszközön.
+> 
+> Mivel azért hozzuk létre ezt a szoftvert, hogy a felhasználó helyett észben tartsa a bevásárlólistát, ezért biztosítanunk kell annak permanens tárolását.
+> 
+> Tervünk az, hogy a lista elemeit egy, az adott eszköz háttértárába elmentett .csv állományba fogjuk elmenteni, így az nem foglal sok helyet és nem bonyolult a frissítése sem.
+
+
 
 
 ## Funkcionális terv
