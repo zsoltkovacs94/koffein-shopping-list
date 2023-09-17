@@ -18,7 +18,7 @@ A kezdőképernyő a Listaválasztás, a téglalapok menük, a kerekített sark�
 
 ### Lista megjelenítése
 
-A lista megjelenítése egy automatikusan meghívott függvény, ami megjeleníti a képernyőn a kiválasztott listát. Az alkalmazás indulásakor és minden listaművelet után meghívásra kerül.
+A lista megjelenítése egy automatikusan meghívott függvény, ami megjeleníti a képernyőn a kiválasztott listát. Az lista kiválasztásakor és minden listaművelet után meghívásra kerül.
 
 ![Listamegjelenítés folyamata](UML/funkcionalis_terv/megjelenites.png)
 
@@ -55,6 +55,16 @@ A törlő függvény a memóriában tártolt listából és a háttértáron tá
 A listanézetben a listaelemre kattintva érhető el a törlés funkció.
 
 ![Megjelenő lista](UML/kepernyotervek/lista1.drawio.png)
+
+### Kedvencek listájának megjelenítése
+
+### Kedvencekből való törlés
+
+### Kedvencekhez adás a kedvencek listájából
+
+### Listaválasztás
+
+### Listák tárolása a háttértáron
 
 ## Fizikai környezet
 
