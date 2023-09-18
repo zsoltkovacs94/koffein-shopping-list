@@ -1,6 +1,11 @@
 # Követelmény specifikáció
 
 ## Jelenlegi helyzet leírása
+A bevásárló listák elkészítése manapság papír alpúak. Észrevételünk, hogy ez a fajta eljárás már elavult. A papír alapú bevásárló lista nem hatékony.
+Könnyen elveszhet míg a telefonos alkalmazás alapú lista mindíg nállunk van , mert telefon nélkül kevesen indulnak el otthonról.
+Több bevásárló lista esetén ezek cetlin keverethetnek vagy elveszhet. Telefonos alkalmazásunkban könnyen tudunk létrehozni új bevásárlólistát vagy törölni amire már nincs szükségünk.
+Gyakran vásárolt termékeinket megtudjuk jelölni kedvenceink listájába így még egyszerübb a bevásárló listák elkészítése.
+
 
 ## Vágyálomrendszer leírása
 
