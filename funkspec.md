@@ -2,6 +2,12 @@
 
 ## Jelenlegi helyzet leírása
 
+Szeretnénk kibővítei a mai bevásárló lista írási lehetőségeinket.Ez az alkalmazás segítséget nyújt minden embernek a hétköznapi életben.
+A XXI. század megköveteli, hogy a bevásárló listánk már a mobiltelefonunkon legyen és eszközünkröl könnyen hozzáférjünk és módosítsuk.
+Ezért fogjuk létrehozni ezt az mobilos alkalmazást amiről egyszerűen tudunk létrehozni új bevásárló listát vagy törölni a meglévőt. 
+Létrehozott listánkhoz tudunk hozzáadni vagy törölni vagy kedvemcek listájához hozzáadni.
+Ezzel az alkamazással még egyszerűbb lesz ezek elkészítése és használata.
+
 ## A rendszer céljai és nem céljai
 
 A rendszer céljai:
