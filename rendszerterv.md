@@ -2,6 +2,15 @@
 
 ## A rendszer célja
 
+A rendszer célja, hogy az emberek a telefonjukon tudjanak létrehozni bevásárló listákat.
+Új listákat tudnak létrehozni és hozzá adni új tételeket.
+A meglévő lista elemeit tudjá módosítani és törölni.
+A rendszer használható androidos eszközökön , alkalmazás formájában.
+Mivel az alkalmazást csak  Androidos alkalmazásban szeretnénk elérhetővé tenni, nem célunk hogy más, például
+IOS operációs rendszerrel rendelkező eszközön fusson.
+A rendszer az adatokat lokálisan tárolja, külső szercert, adatbázist nem használ.
+
+
 ## Projektterv
 
 A projektet JAVA platformon fejlesztjük, android eszközökre, az Android Studio IDE-t használva.
