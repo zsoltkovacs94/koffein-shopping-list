@@ -4,6 +4,61 @@
 
 ## Projektterv
 
+A projektet JAVA platformon fejlesztjük, android eszközökre, az Android Studio IDE-t használva.
+
+### Elvégzendő feladatok
+
+A rendszer leprogramozását négy felé bontottuk:
+
+- Lista megjelenítése és perzisztens tárolása
+- Termék listához adása és törlése
+- Kedvencek megjelenítése és perzisztens tárolása
+- Kedvencekhez adás és törlés
+
+A projekten dolgozók mindegyikének vállalnia kell egy részt.
+
+Továbbá elvégzendő feladatok a specifikációk és rendszerterv elmaradt részeinek pótlása.
+
+### Felelősségi körök
+
+| Név | Felelősségi kör | Vállalt rész |
+|-----|-----------------|--------------|
+| Czinege Lajos | Programozó | Kedvencek hozzáadása és törlése funkció leprogramozása és tesztelése |
+| Jurás Dorka | Programozó | Még nem vállalt |
+| Kovács Zsolt | Programozó | Lista megjelenítése és perzisztens tárolása funkció leprogramozása és tesztelése |
+| Madar Boglárka | Programozó | Még nem vállalt |
+
+### Mérföldkövek
+
+A projekt legfontosabb mérföldkövei a következők:
+
+- Programrészek önállóan működő változatainak elkészítése
+- Programrészek önállóan működő változatainak tesztelése
+- Programrészek közös működésének megvalósítása
+- Programrészek közös működésének tesztelése
+- Test log kitöltése
+
+### Ütemterv
+
+#### Programozáshoz kötődő feladatok ütemterve
+
+| Feladat | Határidő |
+|---------|----------|
+| Programrészek önállóan működő megvalósítása | 2023. 09. 22 |
+| Programrészek önálló működésének tesztelése | 2023. 09. 22 |
+| Programrészek közös működésének megvalósítása | 2023. 09. 24 |
+| Programrészek közös működésének tesztelése | 2023. 09. 24 |
+
+#### Programozáshoz nem kötődő feladatok ütemterve
+
+| Feladat | Határidő |
+|---------|----------|
+| Test log kitöltése a programrészek önálló részeinek tesztjeivel | 2023. 09. 22 |
+| Követelmény specifikáció hiányzó részeinek pótlása | 2023. 09. 24 |
+| Funkcionális specifikáció hiányzó részeinek pótlása | 2023. 09. 24 |
+| Rendszerterv hiányzó részeinek pótlása | 2023. 09. 24 |
+| Test log kitöltése a programrészek közös működésének tesztjeivel | 2023. 09. 24 |
+
 ## Üzleti folyamatok modellje
 
 ## Követelmények
