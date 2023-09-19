@@ -320,6 +320,54 @@ Az alkalmazás nem kommunikál majd semmilyen külső szerverrel vagy API-val, m
 
 ## Absztrakt domain modell
 
+### Domain specifikáció, fogalmak:
+
+
+**Felhasználó**: A rendszer felhasználója, aki használja az alkalmazást a bevásárlólisták készítéséhez és kezeléséhez.
+
+
+**Termék**: Olyan árucikk vagy tétel, amelyet a felhasználó tud létrehozni és hozzáadhatja a bevásárlólistájához.
+Minden terméknek van neve, mennyisége és mértéke.
+
+
+**Bevásárlólista**: A felhasználó által létrehozott lista, amely tartalmazza a kiválasztott termékeket és azok mennyiségét.
+
+
+**Kedvenc termék**: A felhasználó kedvenc termékei, melyeket gyakran vásárol.
+
+
+### Absztrakt komponensek és azok kapcsolatai:
+
+
+**Felhasználó és Bevásárlólista**: A felhasználó létrehozhat és kezelhet több bevásárlólistát.
+A felhasználó ezeket a listákat szerkesztheti vagy törölheti.
+
+
+**Termék és Bevásárlólista**: Egy bevásárlólista tartalmazhat több terméket, és egy termék több
+bevásárlólistában is szerepelhet. A kapcsolat az adott termék felvétele a bevásárlólistába.
+
+
+**Felhasználó és Termék**: A felhasználók hozzáadhatnak termékeket a bevásárlólistájukhoz.
+A termék adatait a felhasználó használja a listájának szerkesztéséhez.
+
+
+### Konkrét példán keresztüli bemutatás:
+
+
+**Példa 1**: Feri egy felhasználó, aki létrehoz egy bevásárlólistát "Hétvégi bevásárlás" néven.
+Ebben a listában szerepelnek olyan termékek, mint "tej", "kenyér" és "tojás". Az absztrakt modell
+szerint Feri a felhasználó, a "Hétvégi bevásárlás" a bevásárlólista, és a termékek (tej, kenyér, tojás)
+a bevásárlólista részei.
+
+
+**Példa 2**: Bob is egy felhasználó, és ő is létrehoz egy bevásárlólistát "Munkahelyi szülinapi bulihoz" címmel.
+Ebben a listában olyan termékek vannak, mint "tortához való díszek" és "üdítők". Mivel már korábban
+többször is volt rá alkalom, hogy Bob üdítőt vegyen, ezért megegyszerűsítette a saját dolgát és a "Kedvencek"
+listába helyezte a terméket, így nem kellett újra létrehoznia az üdítő nevű terméket.
+Az absztrakt modell alapján Bob a felhasználó, a "Munkahelyi szülinapi bulihoz" pedig egy másik bevásárlólista,
+amelynek saját termékei vannak.
+
+
 ## Architektúrális terv
 
 ## Tesztterv
