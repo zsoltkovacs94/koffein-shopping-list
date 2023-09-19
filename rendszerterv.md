@@ -286,6 +286,36 @@ Tesztelésünk során összefoglalásként kiemelhető, hogy akkor tekinthető e
 
 ### Tesztelési eljárások
 
+> Általános funkcionális teszt
+
+- A rendszer működésének vizsgálata normál működés esetén.
+- A teszt során ellenőrizzük, hogy a rendszer funkciói az elvártaknak megfelelően működnek, a tesztek során a kívánt eredményeket kapjuk.
+  - Számunkra ez az jelenti, hogy a lista feltöltése, adatok mentése, listák megjelenítése, stb. rendesen működik.
+- Ahol lehetséges, szükséges már a fejlesztési idő alatt tesztelni, hogy egyes metódusok megfelelően működnek-e.
+- A teszteket a fejlesztők végzik, és a tesztek kimenetét a test log-ba jegyzik fel.
+- Minden egyes metódus megfelelő működésének biztosítására írni kell Unit teszteket, amelyek minden elképzelhető hibaesetre is kitérnek.
+- A metódusok akkor vannak készen, ha a tesztesetek hiba nélkül térnek vissza az egyes metódusokon.
+
+> Szélsőérték funkcionális teszt
+
+- A rendszer működésének vizsgálata szélső bemeneti és kimeneti értékek esetén.
+- A teszt során ellenőrizzük, hogy a rendszer funkciói az elvártaknak megfelelően működnek, a teszt során a kívánt eredményeket kapjuk.
+  - Számunkra ez azt jelenti, hogy negatív beírt értékekre hibát fog jelezni a teszt, stb.
+
+> Biztonsági teszt
+
+- A szoftver jogosultsági rendszerének tesztelése ellenőrzi, hogy a rendszer adataihoz csak az elvárt felhasználók férnek-e hozzá.
+  - Számunkra ez azt jelenti, hogy a listában lévő adatokhoz és magukhoz a listákhoz egyedül az eszköz tulajdonában lévő felhasználó fér hozzá.
+
+> Telepítési és rendszer-visszaállítási teszt
+
+- A rendszer telepítésének tesztelése a rendszerüzemeltetési leírás alapján.
+  - Számunkra ez azt jelenti, hogy a felhasználó képes az alkalmazás áruházból telepíteni az alkalmazást mindenféle bonyodalmak hiányában.
+- Rendszer visszaállítása (program és adat) a rendszerüzemeltetési leírás alapján.
+  - Számunkra ez azt jelenti, hogy az alkalmazás törlése után az alkalmazásba mentett minden adat törlődik az eszközről.
+
+### Tesztelendő funkciók
+
 
 
 ## Telepítési terv
