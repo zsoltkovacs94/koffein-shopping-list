@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         listView = (ListView) findViewById(R.id.bevasarloLista);
         TermekLista termekek = new TermekLista(getApplicationContext(), "lista.csv");
-        termekek.remove(termekek.at(0));
+        //termekek.remove(termekek.at(0));
         TermekAdapter termekAdapter = new TermekAdapter(getApplicationContext(), termekek);
         listView.setAdapter(termekAdapter);
     }
