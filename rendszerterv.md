@@ -70,6 +70,55 @@ A projekt legfontosabb mérföldkövei a következők:
 
 ## Üzleti folyamatok modellje
 
+### Üzleti szereplők
+
+
+1. **Felhasználó**: Alkalmazásunkban ez a "fő szereplő", aki az alkalmazást használja a bevásárlólista
+   készítéséhez és kezeléséhez.
+2. **Adminisztrátor**: Az adminisztrátoroknak az alábbi feladatokat szükséges elvégezniük:
+
+
+- Problémák kezelése: Az adminisztrátorok foglalkozhatnak a problémákkal, panaszokkal vagy visszajelzésekkel.
+- Rendszerkarbantartás: Az adminisztrátorok felelősek a rendszer karbantartásáért, például
+  biztonsági mentések készítéséért és a rendszer teljesítményének optimalizálásáért.
+- Adatbiztonság és adatvédelem: Az adminisztrátorok felelősek lehetnek az adatbiztonság és adatvédelem fenntartásáért.
+- Kommunikáció: Gyakori kommunikálás a felhasználókkal, például: értesítés küldése, válasz a felhasználó kérdéseisre, kéréseire.
+
+Az adminisztrátorok szerepe tehát az alkalmazás hatékony működésének és a felhasználók támogatásának
+biztosítása, valamint a biztonság és adatvédelem fenntartása.
+
+
+### Üzleti folyamatok
+
+
+1. **Bevásárlólista készítése**: A felhasználó létrehozza vagy módosítja a bevásárlólistát.
+   Ezt az eseményt az alkalmazás felhasználói felülete indítja.
+    - Bemenetek: Felhasználói input
+    - Kimenetek: Bevásárlólista tartalma
+    - Szereplők: Felhasználó
+
+
+2. **Termékek hozzáadása és eltávolítása**: A felhasználó hozzáad termékeket a bevásárlólistához vagy törli őket.
+   - Bemenetek: Felhasználói input, Kedvenc termékek lista
+   - Kimenetek: Módosított bevásárlólista
+   - Szereplők: Felhasználó
+
+
+3. **Kedvenc termékek hozzáadása és eltávolítása**: A felhasználó hozzáadja a kedvenc termékeit a
+   "Kedvenc termékek" listához vagy törli őket.
+    - Bemenetek: Felhasználói input
+    - Kimenetek: Módosított "Kedvenc termékek" lista
+    - Szereplők: Felhasználó
+     ![Üzleti_folyamatok](UML/igenyelt_folyamatok/Igenyelt_folyamatok.drawio.png)
+
+
+### Üzleti entitások:
+
+
+- **Bevásárlólista**: A felhasználó által létrehozott lista, amely tartalmazza a vásárolni kívánt termékeket és mennyiségeket.
+- **Kedvenc termékek**: A felhasználó által gyakran alkalmazott, vagy kedvencek közé helyezett termékek listája.
+
+
 ## Követelmények
 
 Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen megvalósítani. Ezek a fejlesztés során változhatnak.
