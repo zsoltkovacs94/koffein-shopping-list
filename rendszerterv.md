@@ -143,7 +143,9 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 
 ### Törvényi előírások, szabványok
 
-Terveink szerint a szoftverünk bármilyen mobilos alkalmazás áruházból elérhető lesz (mint a Google Play Store vagy App Store), ezért ránk, mint fejlesztőkre, szigorú szabályok vonatkoznak.
+Először is szükséges megfelelnünk az Európai Unió Általános adatvédelmi rendeletének (GDPR).
+
+Továbbá, szoftverünk terveink szerint bármilyen mobilos alkalmazás áruházból elérhető lesz (mint a Google Play Store vagy App Store), ezért ránk, mint fejlesztőkre, szigorú szabályok vonatkoznak.
 
 A Google Play Store fejlesztőkre vonatkozó irányelveiből kiemelnénk párat, amely szigorúbban hat a mi általunk tervezett szoftverre.
 
