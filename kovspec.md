@@ -32,6 +32,16 @@ A mai világban az emberek körében egyre fontisabb a digitális átálás. A h
 
 ## Igényelt üzleti folyamatok modellje
 
+Azért, hogy könnyebbé tegyük a vásárlást tervező emberek dolgát, létrehozunk egy alkalmazást, amely
+a mindennapokban megfelelően helyt fog tudni állni az elektronikai világban.
+
+
+A vásárlást tervező felhasználónak lehetősége nyílik egy/több új listát létrehozni (vagy meglévőt
+törölni), azt elnevezni (vagy átnevezni), majd a listán belül termékeket hozzáadni/eltávolítani.
+A termékeket el tudja nevezni, mennyiséget és mértéket is hozzá tud rakni. Emellett a kedvenc
+(gyakori) termékeit ki tudja jelölni, ezzel megkönnyítve a bevásárlólista feltöltését.
+
+
 ![modell](UML/igenyelt_folyamatok/Igenyelt_folyamatok.drawio.png)
 
 ## Követelménylista
