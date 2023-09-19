@@ -316,6 +316,12 @@ Tesztelésünk során összefoglalásként kiemelhető, hogy akkor tekinthető e
 
 ### Tesztelendő funkciók
 
+> Funkcionális követelmények tesztjei
 
+- Az alkalmazásnak bármilyen telefonos készüléken meg kell jelennie telepítés után, az alapméretezett, üres listának egyből be kell töltődnie az alkalmazás elindítását követően.
+- A felhasználó által létrehozott listáknak el kell tárolódnia az alkalmazáson belül és az eszköz háttértárolóján is. Ha a listák változnak (bővítés, törlés) annak mindkét listában tükröződnie kell.
+- A felhasználó által hozzáadott és törölt termékek adatainak (név, mennyiség, mértékegység) rendszerint kell működniük, hozzáadás és törlés esetén is.
+- A 'Kedvenc termékek' listának ugyanúgy meg kell jelennie, mint a bavásárló listáknak, és ugyanúgy kezelnie kell a termékek hozzáadását és törlését.
+- A 'Kedvenc termékek' listában szereplő elemeknek meg kell jelenniük a felhasználónak, ha a termék neve hasonló a felhasználó által beírt termék nevéhez.
 
 ## Telepítési terv
