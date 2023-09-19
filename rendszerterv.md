@@ -275,4 +275,17 @@ Az alkalmazás nem kommunikál majd semmilyen külső szerverrel vagy API-val, m
 
 ## Tesztterv
 
+### Jelen alpont meghatározása
+
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
+
+Tesztelésünk során összefoglalásként kiemelhető, hogy akkor tekinthető egy adott részrendszer tesztelése sikeresnek, ha
+- a test log mezői 95%-ban 'MEGFELELT' minősítésűek, azaz
+  - a specifikációban elfogadott funkciók működnek,
+  - a rendszerfunkciók specifikált paramétereinek mért értékei az elvárásoknak megfelelő teljesítmény-határértékek között vannak.
+
+### Tesztelési eljárások
+
+
+
 ## Telepítési terv
