@@ -143,7 +143,27 @@ Ez azoknak a követelményeknek a listája, amelyeket szeretnénk mindenképpen 
 
 ### Törvényi előírások, szabványok
 
-Ide kellenek azok a törvények, szabványok, amelyeket be kell tartanunk a szoftver tervezése, létrehozása alatt (folyt. köv. mert nem értek a joghoz).
+Terveink szerint a szoftverünk bármilyen mobilos alkalmazás áruházból elérhető lesz (mint a Google Play Store vagy App Store), ezért ránk, mint fejlesztőkre, szigorú szabályok vonatkoznak.
+
+A Google Play Store fejlesztőkre vonatkozó irányelveiből kiemelnénk párat, amely szigorúbban hat a mi általunk tervezett szoftverre.
+
+1. Korlátozott tartalom
+   - Alkalmazásunknak meg kell felelnie a jelen tartalmi irányelveknek és a helyi törvényeknek.
+     - Biztosítanunk kell, hogy alkalmazásunk nem tartalmaz sértő és káros dolgokat.
+     - Pénzügyileg nem zsákmányolhatunk ki semmilyen felhasználót.
+2. Mások személyi adataival való visszaélés
+   - Nem szabad olyan alaklmazást létrehoznunk, amely bármilyen módon félrevezeti a felhasználókat.
+     - Ne próbáljuk meg más személynek vagy alkalmazásnak tettetni magunkat.
+     - Ne éljünk vissza felhasználóink adataival.
+3. Spam és minimális használhatóság
+   - Minimális követelmény az alkalmazások felé, hogy valamilyen alapszintű funkcionalitást és tisztességes felhasználói élményt biztosítsanak.
+     - Ne omoljon össze az alkalmazás használat közben.
+     - Ne küldjön az alkalmazás nemkívánatos emaileket, spamet.
+4. Rosszindulatú program
+   - Rosszindulatú programnak tekinthető minden olyan kód, amely veszélynek teszi ki a felhasználót, a felhasználó adatait vagy a felhasználó eszközét.
+
+Fő célunk továbbra is a felhasználó életének könnyítése, ezért biztosítani fogjuk, hogy alkalmazásunk megfelel a fent említett, és a bővebb irányelvek listájának is.
+(Forrás: [Fejlesztői irányelvek központja](https://play.google.com/about/developer-content-policy/))
 
 ## Funkcionális terv
 
