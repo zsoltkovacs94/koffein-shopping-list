@@ -33,9 +33,9 @@ Továbbá elvégzendő feladatok a specifikációk és rendszerterv elmaradt ré
 | Név | Felelősségi kör | Vállalt rész |
 |-----|-----------------|--------------|
 | Czinege Lajos | Programozó | Kedvencek hozzáadása és törlése funkció leprogramozása és tesztelése |
-| Jurás Dorka | Programozó | Még nem vállalt |
+| Jurás Dorka | Programozó | Kedvencek megjelenítése és tárolása funkció leprogramozása és tesztelése |
 | Kovács Zsolt | Programozó | Lista megjelenítése és perzisztens tárolása funkció leprogramozása és tesztelése |
-| Madar Boglárka | Programozó | Még nem vállalt |
+| Madar Boglárka | Programozó | Kedvencek hozzáadása és törlése funkció leprogramozása és tesztelése |
 
 ### Mérföldkövek
 
