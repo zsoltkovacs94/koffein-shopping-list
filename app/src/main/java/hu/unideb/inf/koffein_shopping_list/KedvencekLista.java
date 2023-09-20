@@ -56,4 +56,13 @@ public class KedvencekLista {
         csvHandler.write(this.toString());
     }
 
+    @Override
+    public String toString(){
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Termek termek:kedvencekList) {
+            stringBuilder.append(termek).append("\n");
+        }
+        return stringBuilder.toString();
+    }
+
 }
