@@ -17,11 +17,13 @@ public class TermekLista {
     }
     public void add(String termek){
         termekList.add(new Termek(termek));
-        writeToFile();
+        if(csvHandler!=null)
+            writeToFile();
     }
     public void remove(Termek t){
         termekList.remove(t);
-        writeToFile();
+        if(csvHandler!=null)
+            writeToFile();
     }
     public int size(){
         return termekList.size();
