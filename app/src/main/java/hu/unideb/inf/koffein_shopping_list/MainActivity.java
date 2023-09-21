@@ -31,15 +31,16 @@ public class MainActivity extends AppCompatActivity {
                 // Szóval, röviden: ehhez a listához senki ne adjon semmit hozzá, és ha valakinek van jobb ötlete hova írjam át ezt, akkor megköszönném a segítséget (és bocsánat, also) ;;
             }
         });
-
         listView = (ListView) findViewById(R.id.bevasarloLista);
-        TermekLista termekek = new TermekLista(getApplicationContext(), "lista.csv");
+        TermekLista termekek = new TermekLista(getApplicationContext(), "lista.csv", listView);
         //termekek.remove(termekek.at(0));
-        showList(termekek);
-    }
-    public void showList(TermekLista termekek){
-        TermekAdapter termekAdapter = new TermekAdapter(getApplicationContext(), termekek);
-        listView.setAdapter(termekAdapter);
+        Button backButton = (Button) findViewById(R.id.backButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                termekek.showList(listView);
+            }
+        });
     }
 
     public void showFaves(KedvencekLista kedvencek) {
