@@ -24,16 +24,12 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("BUTTONS", "User clicked on Favorites button.");
                 KedvencekLista kedvencek = new KedvencekLista(getApplicationContext(), "faves.csv");
                 showFaves(kedvencek);
-                // Ez így most működik állítólag, amíg nem adunk ehhez a listához semmilyen terméket...
-                // Mert egyszer megpróbáltam, másik csv file névvel, de egy órán át verekedtem ezzel a cuccal, szóval új nevet adtam neki, és még most működik...
-                // A termékek listához lehet adni cuccokat és működik a dolog, és át is vált a Kedvencek listára, csak ha ahhoz hozzáadok valamit kiég szegény
-                // Lehet ott kezdődnek a gondok, hogy nem is ide kéne adnom ezt a gomb nyomogatós lista megjelenítést, de nem értek én sajnos a programozáshoz lol
-                // Szóval, röviden: ehhez a listához senki ne adjon semmit hozzá, és ha valakinek van jobb ötlete hova írjam át ezt, akkor megköszönném a segítséget (és bocsánat, also) ;;
             }
         });
         listView = (ListView) findViewById(R.id.bevasarloLista);
         TermekLista termekek = new TermekLista(getApplicationContext(), "lista.csv", listView);
         //termekek.remove(termekek.at(0));
+
         Button backButton = (Button) findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override

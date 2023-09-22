@@ -40,11 +40,7 @@ public class KedvencekAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         convertView = layoutInflater.inflate(R.layout.activity_fave_item, null);
         TextView termekNevTV = (TextView) convertView.findViewById(R.id.termekNevTextView);
-        TextView mennyisegTV = (TextView) convertView.findViewById(R.id.mennyisegTextView);
-        TextView mertekegysegTV = (TextView) convertView.findViewById(R.id.mertekegysegTextView);
-        termekNevTV.setText(kedvencekList.at(position).getTermekNev());
-        mennyisegTV.setText(kedvencekList.at(position).getMennyiseg());
-        mertekegysegTV.setText(kedvencekList.at(position).getMertekegyseg());
+        termekNevTV.setText(kedvencekList.at(position));
         return convertView;
     }
 

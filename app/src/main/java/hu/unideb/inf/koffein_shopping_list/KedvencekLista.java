@@ -9,7 +9,7 @@ public class KedvencekLista {
 
     CSVHandler csvHandler;
 
-    List<Termek> kedvencekList = new ArrayList<Termek>();
+    List<String> kedvencekList = new ArrayList<String>();
 
     public KedvencekLista() {
 
@@ -21,13 +21,13 @@ public class KedvencekLista {
     }
 
     public void add(String termek) {
-        kedvencekList.add(new Termek(termek));
+        kedvencekList.add(termek);
         if(csvHandler != null) {
             writeToFile();
         }
     }
 
-    public void remove(Termek t) {
+    public void remove(String t) {
         kedvencekList.remove(t);
         if(csvHandler != null) {
             writeToFile();
@@ -38,16 +38,16 @@ public class KedvencekLista {
         return kedvencekList.size();
     }
 
-    public Termek at(int index) {
+    public String at(int index) {
         return kedvencekList.get(index);
     }
 
     private void readFromFile() {
         List<String> lines = csvHandler.read();
-        kedvencekList = new ArrayList<Termek>();
+        kedvencekList = new ArrayList<String>();
         for (String line : lines) {
             if(line != null) {
-                kedvencekList.add(new Termek(line));
+                kedvencekList.add(line);
             }
         }
     }
@@ -59,7 +59,7 @@ public class KedvencekLista {
     @Override
     public String toString(){
         StringBuilder stringBuilder = new StringBuilder();
-        for (Termek termek:kedvencekList) {
+        for (String termek:kedvencekList) {
             stringBuilder.append(termek).append("\n");
         }
         return stringBuilder.toString();
