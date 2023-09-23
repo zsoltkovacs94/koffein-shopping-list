@@ -16,19 +16,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button favButton = (Button) findViewById(R.id.favButton);
+        listView = (ListView) findViewById(R.id.bevasarloLista);
+        TermekLista termekek = new TermekLista(getApplicationContext(), "lista.csv", listView);
+        KedvencekLista kedvencek = new KedvencekLista(getApplicationContext(), "faves.csv", listView);
+        //termekek.remove(termekek.at(0));
+        //kedvencek.remove(kedvencek.at(0));
 
+        Button favButton = (Button) findViewById(R.id.favButton);
         favButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("BUTTONS", "User clicked on Favorites button.");
-                KedvencekLista kedvencek = new KedvencekLista(getApplicationContext(), "faves.csv");
-                showFaves(kedvencek);
+                kedvencek.showFaves(listView);
             }
         });
-        listView = (ListView) findViewById(R.id.bevasarloLista);
-        TermekLista termekek = new TermekLista(getApplicationContext(), "lista.csv", listView);
-        //termekek.remove(termekek.at(0));
 
         Button backButton = (Button) findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {
@@ -37,10 +37,5 @@ public class MainActivity extends AppCompatActivity {
                 termekek.showList(listView);
             }
         });
-    }
-
-    public void showFaves(KedvencekLista kedvencek) {
-        KedvencekAdapter kedvencekAdapter = new KedvencekAdapter(getApplicationContext(), kedvencek);
-        listView.setAdapter(kedvencekAdapter);
     }
 }
