@@ -66,28 +66,47 @@ public class MainActivity extends AppCompatActivity {
         EditText mennyiseg = (EditText) view.findViewById(R.id.edit_mennyiseg);
         EditText mertekegyseg = (EditText) view.findViewById(R.id.edit_mertekegyseg);
 
-
         builder.setView(view);
         builder.setTitle("Termék hozzáadása")
-                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        StringBuilder sb = new StringBuilder();
-                        sb.append(termeknev.getText())
-                                .append(",")
-                                .append(mennyiseg.getText())
-                                .append(",")
-                                .append(mertekegyseg.getText());
-                        termekek.add(sb.toString());
-                    }
-                })
+                .setPositiveButton("OK", null) // Ne adjunk meg OnClickListener-t itt
                 .setNegativeButton("Vissza", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-
-
+                        // Ablak bezárása a "Vissza" gombra kattintva
+                        dialog.dismiss();
                     }
                 });
         dialog = builder.create();
+
+        dialog.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                Button positiveButton = dialog.getButton(DialogInterface.BUTTON_POSITIVE);
+                positiveButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        // Ellenőrizzük, hogy az adatmezők üresek-e
+                        String termekNevText = termeknev.getText().toString().trim();
+                        String mennyisegText = mennyiseg.getText().toString().trim();
+                        String mertekegysegText = mertekegyseg.getText().toString().trim();
+
+                        if (termekNevText.isEmpty() || mennyisegText.isEmpty() || mertekegysegText.isEmpty()) {
+                            // Ha valamelyik mező üres
+                            Toast.makeText(MainActivity.this, "Adja meg a termék adatait", Toast.LENGTH_SHORT).show();
+                        } else {
+                            // Ha minden adat meg van adva
+                            StringBuilder sb = new StringBuilder();
+                            sb.append(termekNevText)
+                                    .append(",")
+                                    .append(mennyisegText)
+                                    .append(",")
+                                    .append(mertekegysegText);
+                            termekek.add(sb.toString());
+                            dialog.dismiss(); // Ablak bezárása a sikeres hozzáadás után
+                        }
+                    }
+                });
+            }
+        });
     }
 }
