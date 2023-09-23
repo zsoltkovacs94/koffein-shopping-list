@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.bevasarloLista);
-        TermekLista termekek = new TermekLista(getApplicationContext(), "lista.csv", listView);
         KedvencekLista kedvencek = new KedvencekLista(getApplicationContext(), "faves.csv", listView);
+        TermekLista termekek = new TermekLista(getApplicationContext(), "lista.csv", listView);
         //termekek.remove(termekek.at(0));
         //kedvencek.remove(kedvencek.at(0));
 
