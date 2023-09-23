@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     Button addButton;
     AlertDialog dialog;
+    TermekLista termekek;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         listView = (ListView) findViewById(R.id.bevasarloLista);
         KedvencekLista kedvencek = new KedvencekLista(getApplicationContext(), "faves.csv", listView);
-        TermekLista termekek = new TermekLista(getApplicationContext(), "lista.csv", listView);
+        termekek = new TermekLista(getApplicationContext(), "lista.csv", listView);
         //termekek.remove(termekek.at(0));
         //kedvencek.remove(kedvencek.at(0));
 
@@ -46,14 +48,11 @@ public class MainActivity extends AppCompatActivity {
         addButton = findViewById(R.id.addButton);
         listView = findViewById(R.id.bevasarloLista);
 
-
-        buildDialog();
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d("BUTTONS", "User clicked on Add button.");
-
-
+                buildDialog();
                 dialog.show();
             }
         });
@@ -63,11 +62,9 @@ public class MainActivity extends AppCompatActivity {
     private void buildDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         View view = getLayoutInflater().inflate(R.layout.activity_dialog, null);
-
-
-        TextView termeknev = findViewById(R.id.edit_termeknev);
-        TextView mennyiseg = findViewById(R.id.edit_mennyiseg);
-        TextView mertekegyseg = findViewById(R.id.edit_mertekegyseg);
+        EditText termeknev = (EditText) view.findViewById(R.id.edit_termeknev);
+        EditText mennyiseg = (EditText) view.findViewById(R.id.edit_mennyiseg);
+        EditText mertekegyseg = (EditText) view.findViewById(R.id.edit_mertekegyseg);
 
 
         builder.setView(view);
@@ -75,9 +72,13 @@ public class MainActivity extends AppCompatActivity {
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        addView(termeknev.getText().toString(),
-                                mennyiseg.getText().toString(),
-                                mertekegyseg.getText().toString());
+                        StringBuilder sb = new StringBuilder();
+                        sb.append(termeknev.getText())
+                                .append(",")
+                                .append(mennyiseg.getText())
+                                .append(",")
+                                .append(mertekegyseg.getText());
+                        termekek.add(sb.toString());
                     }
                 })
                 .setNegativeButton("Vissza", new DialogInterface.OnClickListener() {
@@ -88,33 +89,5 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
         dialog = builder.create();
-
-
     }
-
-
-    private void addView(String termeknev, String mennyiseg, String mertekegyseg){
-        View view = getLayoutInflater().inflate(R.layout.activity_list_item, null);
-
-
-        TextView termekNevView = view.findViewById(R.id.termekNevTextView);
-        TextView mennyisegView = view.findViewById(R.id.mennyisegTextView);
-        TextView mertekegysegView = view.findViewById(R.id.mertekegysegTextView);
-        Button delete = view.findViewById(R.id.removeButton);
-
-
-        termekNevView.setText(termeknev);
-        mennyisegView.setText(mennyiseg);
-        mertekegysegView.setText(mertekegyseg);
-
-
-        delete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                listView.removeView(view);
-            }
-        });
-        listView.addView(view);
-    }
-
 }
