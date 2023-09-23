@@ -6,12 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".listItemActivity">
 
+
     <TextView
         android:id="@+id/termekNevTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="TextView" />
+
 
     <TextView
         android:id="@+id/mennyisegTextView"
@@ -20,10 +22,20 @@
         android:layout_weight="1"
         android:text="TextView" />
 
+
     <TextView
         android:id="@+id/mertekegysegTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="TextView" />
+
+
+    <Button
+        android:id="@+id/removeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Delete"
+        android:layout_alignParentRight="true"/>
 </LinearLayout>
