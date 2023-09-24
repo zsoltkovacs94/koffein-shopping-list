@@ -422,3 +422,12 @@ Tesztelésünk során összefoglalásként kiemelhető, hogy akkor tekinthető e
 - A 'Kedvenc termékek' listában szereplő elemeknek meg kell jelenniük a felhasználónak, ha a termék neve hasonló a felhasználó által beírt termék nevéhez.
 
 ## Telepítési terv
+
+> A programunk android alapú mobil alkalmazás
+-Egyik telepítési lehetőség letölteni a Google áruházból amihez
+meg kell adni a szükséges engedélyeket és utána lehet telepíteni a programot.
+-Amennyiben nem az áruházból kívánja telepíteni az alkalmazást, úgy engedélyezze készülékén az úgynevezett "Harmadik féltől származó
+tartalmakat" a beállításoknál!
+- Helyezze az ".apk" kiterjesztésű elemet a készülékére, majd futtassa
+azt!
+Webes telepítésre nincs lehetőség mivel az alkalmazás csak mobil alkalmazáson fut.
