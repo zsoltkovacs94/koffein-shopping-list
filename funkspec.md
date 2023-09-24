@@ -29,6 +29,13 @@ Azt szeretnénk, ha a felhasználónak nem kellene mást tennie, mint felírni a
 
 ## Jelenlegi üzleti folyamatok leírása
 
+A mai világban a mindennapi teendőkhöz nem használjuk ki a már meglévő technológiát arra,
+hogy megkönnyítsük a hétköznapi teendőinket és rendszeresebb legyen.
+A jelenlegi világban a fiatalok egyre több mindent végeznek el okos esközeiken ezért szeretnénk
+fejleszteni egz telefonos bevásárlólistát.Jelenleg az emberek papírra írják a listáikat ami a XXI. században
+elavultnak számít. Ez a módszer sok időt vesz el a hétköznapokból és nem áttekinthető.
+
+
 ## Igényelt üzleti folyamatok leírása
 
 Azért, hogy könnyebbé tegyük a vásárlást tervező emberek dolgát, létrehozunk egy alkalmazást, amely
