@@ -18,13 +18,14 @@ public class MainActivity extends AppCompatActivity {
     Button addButton;
     AlertDialog dialog;
     TermekLista termekek;
+    KedvencekLista kedvencek;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         listView = (ListView) findViewById(R.id.bevasarloLista);
-        KedvencekLista kedvencek = new KedvencekLista(getApplicationContext(), "faves.csv", listView);
+        kedvencek = new KedvencekLista(getApplicationContext(), "faves.csv", listView);
         termekek = new TermekLista(getApplicationContext(), "lista.csv", listView);
         //termekek.remove(termekek.at(0));
         //kedvencek.remove(kedvencek.at(0));
@@ -65,7 +66,13 @@ public class MainActivity extends AppCompatActivity {
         EditText termeknev = (EditText) view.findViewById(R.id.edit_termeknev);
         EditText mennyiseg = (EditText) view.findViewById(R.id.edit_mennyiseg);
         EditText mertekegyseg = (EditText) view.findViewById(R.id.edit_mertekegyseg);
-
+        Button addFavButton = (Button) view.findViewById(R.id.addFavButton);
+        addFavButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                kedvencek.add(termeknev.getText().toString());
+            }
+        });
         builder.setView(view);
         builder.setTitle("Termék hozzáadása")
                 .setPositiveButton("OK", null) // Ne adjunk meg OnClickListener-t itt
