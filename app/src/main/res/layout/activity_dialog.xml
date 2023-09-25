@@ -37,7 +37,7 @@
 
     <Button
         android:id="@+id/addFavButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/edit_termeknev"
         android:text="Kedvenc" />
