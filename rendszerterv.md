@@ -218,6 +218,29 @@ Fő célunk továbbra is a felhasználó életének könnyítése, ezért biztos
 
 ## Funkcionális terv
 
+Az MVVM architektúra használata segít elkülöníteni az alkalmazás különböző rétegeit és elvégezni a vázlatos tervezést. Az MVVM három fő rétegből áll: 
+- Modell (Model): A Modell réteg felelős az alkalmazás üzleti logikájáért és az adatkezelésért. Ebben a rétegben definiálod a bevásárló listák és elemek adatstruktúráját, valamint az adatokat a fájlba mentő és onnan betöltő logikát.
+
+- Nézet (View): A Nézet réteg felelős az alkalmazás felhasználói felületének (UI) megjelenítéséért. Ebben a rétegben hozod létre a felhasználói felületet, és a ViewModel segítségével kommunikálsz a Modell réteggel.
+
+- Nézetmodell (ViewModel): A Nézetmodell réteg közvetíti az adatokat a Modell és a Nézet rétegek között. A ViewModel feladata az adatok előkészítése és formázása a Nézetnek, valamint a Nézetből érkező események kezelése és továbbítása a Modell felé.
+
+Adatkezelés:
+
+Az adatokat egy fájlban tároljuk, szövegfájl formájában. Az alkalmazásnak meg kell valósítania a fájlok olvasását és írását. Java nyelven írt osztályokat használunk a fájlkezeléshez.
+
+Adatstruktúra:
+
+Definiáljuk az adatok struktúráját, például a bevásárló listák és elemek modelljeit. Ezek a modell osztályok tartalmazzák az adatokat, például a termék nevét, mennyiségét stb.
+
+Felhasználói Felület (UI):
+
+A UI tervezése és megvalósítása XML-elrendezési fájlokkal történik. Az alkalmazásnak képesnek kell lennie a bevásárló listák létrehozására, megtekintésére és szerkesztésére.
+
+Fájlkezelési réteg:
+
+Ez a réteg felelős az adatfájlok kezeléséért, például a fájlok mentéséért és betöltéséért a tárolóból.
+
 ### Menühierarchia
 
 A kezdőképernyő a Listaválasztás, a téglalapok menük, a kerekített sarkú téglalapok pedig funkciók.
