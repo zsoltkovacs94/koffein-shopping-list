@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_below="@id/edit_termeknev"
-        android:text="Mentés" />
+        android:text="Kedvenc" />
 
 
 </RelativeLayout>
