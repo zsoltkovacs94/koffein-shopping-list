@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class KedvencekAdapter extends BaseAdapter {
@@ -41,6 +42,13 @@ public class KedvencekAdapter extends BaseAdapter {
         convertView = layoutInflater.inflate(R.layout.activity_fave_item, null);
         TextView termekNevTV = (TextView) convertView.findViewById(R.id.termekNevTextView);
         termekNevTV.setText(kedvencekList.at(position));
+        Button favRemoveButton = (Button) convertView.findViewById(R.id.favRemoveButton);
+        favRemoveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                kedvencekList.remove(kedvencekList.at(position));
+            }
+        });
         return convertView;
     }
 
