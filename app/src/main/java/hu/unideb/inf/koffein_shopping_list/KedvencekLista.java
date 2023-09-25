@@ -27,7 +27,8 @@ public class KedvencekLista {
 
     // Ez a String csak "termek" formátumot vár, a TermekListával ellenkezőleg
     public void add(String termek) {
-        kedvencekList.add(termek);
+        if(termek != null)
+            kedvencekList.add(termek);
         if(csvHandler != null) {
             writeToFile();
             showFaves(listView);
@@ -68,6 +69,10 @@ public class KedvencekLista {
         listView.setAdapter(new KedvencekAdapter(context, this));
     }
 
+    public List<String> getList(){
+        return kedvencekList;
+    }
+
     @Override
     public String toString(){
         StringBuilder stringBuilder = new StringBuilder();
@@ -76,5 +81,4 @@ public class KedvencekLista {
         }
         return stringBuilder.toString();
     }
-
 }

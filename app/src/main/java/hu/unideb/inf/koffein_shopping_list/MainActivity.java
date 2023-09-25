@@ -7,6 +7,8 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -63,14 +65,17 @@ public class MainActivity extends AppCompatActivity {
     private void buildDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         View view = getLayoutInflater().inflate(R.layout.activity_dialog, null);
-        EditText termeknev = (EditText) view.findViewById(R.id.edit_termeknev);
+        AutoCompleteTextView termeknev = (AutoCompleteTextView) view.findViewById(R.id.edit_termeknev);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, kedvencek.getList().toArray(new String[0]));
+        termeknev.setAdapter(adapter);
         EditText mennyiseg = (EditText) view.findViewById(R.id.edit_mennyiseg);
         EditText mertekegyseg = (EditText) view.findViewById(R.id.edit_mertekegyseg);
         Button addFavButton = (Button) view.findViewById(R.id.addFavButton);
         addFavButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                kedvencek.add(termeknev.getText().toString());
+                if(termeknev.getText().toString() != null)
+                    kedvencek.add(termeknev.getText().toString());
             }
         });
         builder.setView(view);
