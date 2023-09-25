@@ -5,12 +5,13 @@
     android:padding="16dp">
 
 
-    <EditText
+    <AutoCompleteTextView
         android:id="@+id/edit_termeknev"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="Terméknév"
         android:inputType="text"
+        android:completionThreshold="1"
         />
 
 
@@ -40,4 +41,6 @@
         android:layout_height="50dp"
         android:layout_below="@id/edit_termeknev"
         android:text="Mentés" />
+
+
 </RelativeLayout>
